@@ -5,15 +5,14 @@ def sign_up
 	puts "Salut #{name} ! \n Maintenant choisis mot de passe"
 	print ">  "
 	return password=gets.chomp 
-	
 end 
 
 def login(password)
 	entered=nil
 	while entered != password
-		puts "########################################"
-		puts "entrez le mot de passe SVP !"
-		entered=gets.chomp 
+	puts "########################################"
+	puts "entrez le mot de passe SVP !"
+	entered=gets.chomp 
 	end 
 	return true 
 end   
