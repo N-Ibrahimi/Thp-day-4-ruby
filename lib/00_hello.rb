@@ -1,10 +1,9 @@
+
 def say_hello
 
  puts "hello"	
 
 end
-
-#say_hello
 
  
 def first_name
@@ -17,11 +16,16 @@ def first_name
 end
 
 def bonjour(prenom)
-	puts "bonjour! #{prenom}"
+
+	puts "*******************************"
+	puts "****  Bonjour #{prenom}!  *****"
+	puts "*******************************"
 	
 end
 
+
 def perform
+	say_hello
 	prenom = first_name
 	bonjour(prenom)
 end
