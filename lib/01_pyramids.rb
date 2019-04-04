@@ -1,6 +1,5 @@
 def half_pyramids
-
-  puts "Entrez combien d'etage tu veux?"
+  puts "Salut, bienvenue dans ma super pyramide! Combien d'étages souahites tu? \n (choisis un nobmre entre 0 et 25)"
   print ">  "
 
   
@@ -38,17 +37,8 @@ def full_pyramids
     end
     break
   end 
-  
-  def perform
-    half_pyramids
-    full_pyramids
-  end 
-  
-  perform 
-  
-    
+      
 end 
-
 
 
 full_pyramids
